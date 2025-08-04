@@ -2,12 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
 }
+
+body {
+  display: flex;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
 
 .sidebar {
   background-color: yellowgreen;
   padding: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
   gap: 20px;
 
 
@@ -15,7 +23,8 @@
 
 .search {
   margin: 20px;
-  border: gray;
-  border-radius: 2px;
+  border: 1.2 solid gray;
   padding: 5px 15px;
+  border-radius: 2px;
+
 }
