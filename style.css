@@ -90,3 +90,8 @@ section {
   font-size: 18px;
   margin-right: auto;
 }
+
+.chat-header p {
+  font-size: 12px;
+  color: #888;
+}
