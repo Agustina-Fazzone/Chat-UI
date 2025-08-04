@@ -62,10 +62,20 @@ section {
   color: #666;
 }
 
-/*chat Aiden Chaven*/
+/*chat Aiden Chavez*/
 .chat {
   display: flex;
   flex-direction: column;
   padding: 10px;
   background-color: #fafafa
+}
+
+/*converzacion princpal*/
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
 }
