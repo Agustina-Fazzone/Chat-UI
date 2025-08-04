@@ -61,3 +61,11 @@ section {
   font-size: 12px;
   color: #666;
 }
+
+/*chat Aiden Chaven*/
+.chat {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #fafafa
+}
