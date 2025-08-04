@@ -85,3 +85,8 @@ section {
   height: 40px;
   border-radius: 50%;
 }
+
+.chat-header h3 {
+  font-size: 18px;
+  margin-right: auto;
+}
