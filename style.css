@@ -7,15 +7,18 @@
 
 
 
+
 /*Seccion*/
 section {
   display: flex;
+
   width: 100%;
+
 }
 
 /*Clase Sidebar*/
 .sidebar {
-  width: 300px;
+
   background-color: #fff;
   border-right: 1px solid #ccc;
   padding: 10px;
@@ -37,7 +40,7 @@ section {
 .contact {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
   padding: 10px 0;
 
 }
@@ -63,8 +66,23 @@ section {
   content: "🔴";
 }
 
+.status-inline {
+  font-size: 12px;
+  color: #666;
+}
+
+.status-inline::before {
+  content: "🟢";
+}
+
 
 /*chat Aiden Chavez*/
+.margen-superior {
+  display: flex;
+  justify-content: space-between;
+
+}
+
 .chat {
   display: flex;
   flex-direction: column;
@@ -106,7 +124,9 @@ section {
 .chat-actions {
   display: flex;
   gap: 10px;
-  margin: 10px 0;
+
+
+
 
 }
 
@@ -115,6 +135,8 @@ section {
   padding: 6px 10px;
   border: none;
   font-size: 18px;
+  background-color: transparent;
+
 
 
 
@@ -123,20 +145,27 @@ section {
 /*Mensajes*/
 .chat-messages {
   display: block;
+
+
 }
 
-.menssages {
+.messages {
   max-width: 70%;
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 10px;
 
 
+
 }
+
+
 
 .sent {
   background-color: #dcf8c6;
-  align-self: flex-end;
+  display: flex;
+  justify-content: end;
+
 
 }
 
@@ -178,4 +207,5 @@ section {
   padding: 6px 10px;
   border-radius: 6px;
   font-size: 18px;
+  background-color: transparent;
 }
