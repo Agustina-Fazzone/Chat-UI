@@ -111,3 +111,36 @@ section {
   font-size: 18px;
 
 }
+
+/*Mensajes*/
+.chat-messages {
+  display: block;
+}
+
+.menssages {
+  max-width: 70%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+
+
+}
+
+.sent {
+  background-color: #dcf8c6;
+  align-self: flex-end;
+  margin-bottom: auto;
+}
+
+.received {
+  background-color: #fff;
+  border: 1px solid #ccc;
+
+}
+
+.timesstamp {
+  font-size: 10px;
+  color: #999;
+  margin-top: 4px;
+  text-align: right;
+}
