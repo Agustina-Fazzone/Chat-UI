@@ -19,7 +19,7 @@ main {
 
 
 /*Seccion*/
-section {
+.container {
   display: flex;
 
   width: 100%;
@@ -97,7 +97,7 @@ section {
   display: flex;
   flex-direction: column;
 
-  padding: 20px;
+
   background-color: #fafafa;
 
 
@@ -106,7 +106,7 @@ section {
 /*converzacion princpal*/
 .chat-header {
   display: flex;
-
+  padding: 20px;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
@@ -154,8 +154,11 @@ section {
 
 /*Mensajes*/
 .chat-messages {
-  display: block;
+  display: flex;
+  flex-direction: column;
   flex: 1;
+  padding: 20px;
+  gap: 20px;
 }
 
 .messages {
@@ -206,7 +209,7 @@ section {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 6px;
-
+  width: 100%;
 
 
 }
