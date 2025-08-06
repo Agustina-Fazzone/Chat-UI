@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
@@ -55,6 +55,12 @@ main {
 
 }
 
+.chavez {
+  background-color: #ededed;
+  border-radius: 4px;
+
+}
+
 .contact img {
   width: 40px;
   height: 40px;
@@ -73,7 +79,9 @@ main {
 }
 
 .status::before {
-  content: "🔴";
+  content: "• ";
+  color: red;
+
 }
 
 .status-inline {
@@ -82,7 +90,8 @@ main {
 }
 
 .status-inline::before {
-  content: "🟢";
+  content: "• ";
+  color: green;
 }
 
 
@@ -108,6 +117,7 @@ main {
   display: flex;
   padding: 20px;
   justify-content: space-between;
+
   align-items: center;
   gap: 10px;
   border-bottom: 1px solid #ccc;
