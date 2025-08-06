@@ -171,27 +171,30 @@ main {
   gap: 20px;
 }
 
-.messages {
+.message {
   max-width: 70%;
   margin-bottom: 10px;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
+
 
 }
 
 
 
 .sent {
-  background-color: #dcf8c6;
+  background-color: #e2ffc7;
   display: flex;
   justify-content: end;
+
 
 
 }
 
 .received {
-  background-color: #fff;
-  border: 1px solid #ccc;
+  background-color: #ededed;
+
+
 
 }
 
@@ -200,6 +203,7 @@ main {
   color: #999;
   margin-top: 4px;
   text-align: right;
+  display: flex;
 }
 
 /* Footer del chat */
