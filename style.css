@@ -28,7 +28,8 @@ main {
 
   background-color: #fff;
   border-right: 1px solid #ccc;
-  padding: 10px;
+  padding: 30px;
+
 }
 
 .search {
@@ -41,13 +42,16 @@ main {
 
 .contact-list {
   list-style: none;
+
+
 }
 
 .contact {
   display: flex;
   align-items: center;
   gap: 15px;
-  padding: 10px 0;
+  padding: 10px 0px;
+
 
 }
 
@@ -97,6 +101,7 @@ main {
 .margen-superior {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #ccc;
 }
 
 .chat {
@@ -112,7 +117,7 @@ main {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  border-bottom: 1px solid #ccc;
+
   padding-bottom: 10px;
 }
 
@@ -136,6 +141,7 @@ main {
 .chat-actions {
   display: flex;
   gap: 10px;
+
 }
 
 .chat-actions button {
@@ -145,6 +151,12 @@ main {
   background-color: transparent;
   cursor: pointer;
 }
+
+.chat-actions button:hover,
+.chat-footer button:hover {
+  background-color: #ededed;
+}
+
 
 
 
@@ -156,6 +168,8 @@ main {
   flex: 1;
   padding: 20px;
   gap: 20px;
+  background-color: #ebe8e1;
+
 }
 
 .message {
@@ -169,7 +183,7 @@ main {
 
 .sent {
   background-color: #e2ffc7;
-  display: flex;
+
   align-self: end;
   text-align: right;
 }
@@ -191,13 +205,15 @@ main {
   display: flex;
 }
 
+
+
 /* Footer del chat */
 .chat-footer {
   display: flex;
   justify-content: space-between;
   gap: 10px;
   border-top: 1px solid #ccc;
-  padding-top: 10px;
+  padding: 1.5rem 1rem;
 }
 
 .chat-footer input {
@@ -215,4 +231,11 @@ main {
   border-radius: 6px;
   font-size: 18px;
   background-color: transparent;
+}
+
+/*pantalla celular*/
+@media(max-width:480px) {
+  .sidebar {
+    display: none;
+  }
 }
