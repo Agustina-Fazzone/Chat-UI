@@ -167,11 +167,14 @@ main {
   font-size: 18px;
   background-color: transparent;
   cursor: pointer;
-
-
-
-
 }
+
+.chat-actions button:hover,
+.chat-footer button:hover {
+  background-color: #ededed;
+  ;
+}
+
 
 /*Mensajes*/
 .chat-messages {
