@@ -166,6 +166,7 @@ main {
   border: none;
   font-size: 18px;
   background-color: transparent;
+  cursor: pointer;
 
 
 
@@ -177,8 +178,11 @@ main {
   display: flex;
   flex-direction: column;
   flex: 1;
+
   padding: 20px;
   gap: 20px;
+
+
 
 }
 
