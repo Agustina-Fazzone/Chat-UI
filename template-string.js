@@ -1,6 +1,6 @@
 const $user = document.querySelector("#user-active")
 
-console.log($user.textContent)
+//console.log($user.textContent)
 
 //$user.innerHTML = "<span>A</span>gustina  <strong>Fazzone</strong><button>Cerrar sesión</button>"
 
@@ -12,4 +12,4 @@ $user.innerHTML = `<span>A</span>gustina
 
 
 
-console.log($user.textContent)
+//console.log($user.textContent)
