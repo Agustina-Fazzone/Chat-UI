@@ -12,9 +12,8 @@ const isAdult = true
 //datos complejos/compuestos ->estructura de datos
 //son mutables ->se pueden modificar
 
-//un array sirve para liistar elementos
+//un array sirve para listar elementos
 //objeto sirve para describir un elemento
-
 
 const listOfContacts = ["Luciano", "Ana", "Federico"] //array
 const contactOne = {} //objet
@@ -65,13 +64,13 @@ contacts.forEach(function (contact) {
 //1- voy a ejecutar un bucle tantas veces como elementos haya en el array contacts
 //2- en cada elemento ejecutaré un console.log que dice "Hola".
 
-//EL ARRAY SEMPRE TENDRÁ UN NOMBRE EN PLURAL Y EL ELEMENTO QUE ITERA EN SINGULAR
+//EL ARRAY SIEMPRE TENDRÁ UN NOMBRE EN PLURAL Y EL ELEMENTO QUE ITERA EN SINGULAR
 contacts.forEach(function (contact) {
   console.log("Vuelta nueva")
   console.log(contact.name)
 })
 
-//entre los parentesis () voy a tener la informacion de cada iteracion.osea que va a ser el nombre que adquiere cada elemento.oscea que cada iteracion va a ser (contact)
+//entre los parentesis () voy a tener la informacion de cada iteracion.oscea que va a ser el nombre que adquiere cada elemento.oscea que cada iteracion va a ser (contact)
 
 
 
